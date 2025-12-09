@@ -15,5 +15,5 @@ for p1, p2 in itertools.combinations(coords, 2):
     if area > max_area:
         max_area = area
 
-print(f"--- Resultado ---")
-print(f"La mayor área posible es: {max_area}")
+
+print(max_area)
